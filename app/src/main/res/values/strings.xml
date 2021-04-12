@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Health BMI Calculator</string>
+    <string name="know_your_body_mass_index_bmi">Know Your Body Mass Index (BMI)</string>
+    <string name="live_wise_live_well">Live Wise, Live Well</string>
 </resources>
