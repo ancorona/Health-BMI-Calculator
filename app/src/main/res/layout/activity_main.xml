@@ -14,7 +14,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="@string/know_your_body_mass_index_bmi"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView2"
@@ -28,9 +29,117 @@
         android:textStyle="italic" />
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/hello_world_antonio_c" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:text="@string/bmi_calculator_metric"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="204dp"
+        android:text="@string/enter_your_weight_kg"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="258dp"
+        android:text="@string/enter_your_height_m"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="175dp"
+        android:text="@string/your_body_mass_index"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="@string/bmi_category"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        tools:ignore="LabelFor"
+        android:id="@+id/weightInputField"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="22dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        tools:ignore="LabelFor"
+        android:id="@+id/heightInputField"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="22dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/bmiResultField"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="248dp"
+        android:text="@string/calculate" />
 
 </RelativeLayout>

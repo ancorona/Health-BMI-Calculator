@@ -2,4 +2,10 @@
     <string name="app_name">Health BMI Calculator</string>
     <string name="know_your_body_mass_index_bmi">Know Your Body Mass Index (BMI)</string>
     <string name="live_wise_live_well">Live Wise, Live Well</string>
+    <string name="bmi_calculator_metric">BMI Calculator (Metric)</string>
+    <string name="enter_your_weight_kg">Enter your weight (kg):</string>
+    <string name="enter_your_height_m">Enter your height (m)  :</string>
+    <string name="your_body_mass_index">Your Body Mass Index :</string>
+    <string name="bmi_category">BMI Category</string>
+    <string name="calculate">Calculate</string>
 </resources>
