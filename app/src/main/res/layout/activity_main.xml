@@ -156,4 +156,13 @@
         android:layout_marginTop="338dp"
         android:text="@string/calculate" />
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:text="@string/demo_app_by_antonio_c_ad_340_nsc" />
+
 </RelativeLayout>
